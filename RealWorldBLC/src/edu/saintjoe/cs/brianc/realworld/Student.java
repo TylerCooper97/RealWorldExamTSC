@@ -57,7 +57,7 @@ public class Student {
 	}
 	
 	public String toString() {
-		return ("Student: " + name + " Gender: " + gender + " Class Year: " + classYr + " Age: " + age);
+		return ("Student: " + name + " Gender: " + gender + " Class Year: " + classYr + " Age: " + age + " Grade: " + grade );
 	}
 	
 	

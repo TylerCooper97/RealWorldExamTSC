@@ -50,7 +50,7 @@ public class Course {
 		for (Student oneStudent: students) {
 			if (oneStudent == null)
 				break;
-			output += oneStudent.getName() + " " + oneStudent.getGender() + " " + classYrNames[oneStudent.getClassYr()] + " " + oneStudent.getAge() + "\n";
+			output += oneStudent.getName() + " " + oneStudent.getGender() + " " + classYrNames[oneStudent.getClassYr()] + " " + oneStudent.getAge() + oneStudent.getGrade() + "\n";
 			}
 		return output;
 	}
